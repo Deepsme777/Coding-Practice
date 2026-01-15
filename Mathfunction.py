@@ -21,3 +21,5 @@ y = 3
 
 print(max(x,y))
 print(min(x,y))
+
+print("----------------")
