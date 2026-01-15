@@ -49,5 +49,3 @@ print(web_1[slice_1])
 
 slice_2 = slice(12, 19)
 print(web_2[slice_2])
-
-print
