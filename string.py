@@ -13,6 +13,7 @@ print("Your age is : " + age)
 print("No of alpha in your name : " + str(len(Name)))
 
 name_1 = "lakshaya"
+
 print(Name.find("a"))
 print(name_1.capitalize())
 print(name_1.upper())
