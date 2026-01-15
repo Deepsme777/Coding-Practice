@@ -21,3 +21,31 @@ print(name_1.count("a"))
 print(name_1.isdigit())
 print(name_1.isalpha())
 print(name_1.replace("a" , "A"))
+
+print("----------------------")
+
+# String Slicing
+
+name_2 = "Deepakkumar"
+
+first_name = name_2[0:6]
+print(first_name)
+
+last_name = name_2[-5:]
+print(last_name)
+
+reverse_name = name_2[::-1]
+print(reverse_name)
+
+print("----------------------")
+
+# slice function
+
+web_1 = "www.Co-Sync.com"
+web_2 = "https://www.CO-SYNC.com"
+
+slice_1 = slice(4, 11)
+print(web_1[slice_1])
+
+slice_2 = slice(12, 19)
+print(web_2[slice_2])
