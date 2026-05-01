@@ -49,3 +49,24 @@ print(web_1[slice_1])
 
 slice_2 = slice(12, 19)
 print(web_2[slice_2])
+
+
+# to cappitalize the lower case  and to lower the upper case Aquired from user input
+
+def swap_case(s):
+    string = ""
+
+    for i in s:
+        if i == i.upper():
+            string = string + i.lower()
+        
+        elif i == i.lower():
+            string = string + i.upper()
+
+        else:
+            string = string + i
+
+        return string
+
+
+print("------------------------")
